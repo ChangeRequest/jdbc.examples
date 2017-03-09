@@ -1,0 +1,1 @@
+CREATE USER IF NOT EXISTS demo_user PASSWORD 'demo123';

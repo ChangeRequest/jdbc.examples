@@ -7,3 +7,7 @@ apply from: 'https://raw.githubusercontent.com/ChangeRequest/gradle_common/maste
 apply from: 'https://raw.githubusercontent.com/ChangeRequest/gradle_common/master/testModule.gradle'
 apply from: 'https://raw.githubusercontent.com/ChangeRequest/gradle_common/master/idea.gradle'
 apply from: 'https://raw.githubusercontent.com/ChangeRequest/gradle_common/master/eclipse.gradle'
+
+dependencies {
+    compile group: 'com.h2database', name: 'h2', version: '1.4.193'
+}
