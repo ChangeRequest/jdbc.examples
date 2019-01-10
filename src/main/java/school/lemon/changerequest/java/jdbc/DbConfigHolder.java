@@ -38,5 +38,4 @@ public final class DbConfigHolder {
     public static String getPassword() {
         return PASSWORD;
     }
-
 }

@@ -17,5 +17,4 @@ public class _02DataSource {
         Connection conn = h2Ds.getConnection(getUserName(), getPassword());
         conn.close();
     }
-
 }

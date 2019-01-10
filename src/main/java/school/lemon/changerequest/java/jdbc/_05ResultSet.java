@@ -35,5 +35,4 @@ public class _05ResultSet {
             preparedStatement.close();
         }
     }
-
 }

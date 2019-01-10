@@ -23,5 +23,4 @@ public class _03Statement {
             statement.close();
         }
     }
-
 }
