@@ -26,5 +26,4 @@ public class _04PreparedStatement {
             preparedStatement.close();
         }
     }
-
 }

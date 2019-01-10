@@ -14,7 +14,5 @@ public class _01DriverManager {
         Class.forName("org.h2.Driver");
         Connection connection = DriverManager.getConnection(getUrl(), getUserName(), getPassword());
         connection.close();
-
     }
-
 }
